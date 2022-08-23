@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.aaa{
+    justify-content: center;
+    background-image: linear-gradient(to right,red, blue, orange, rgb(0, 190, 22));
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.aa{
+    width: 73%;
+    background-color: rgb(29, 31, 29);
+    margin-top: 250px;
+}
+.a{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.a1{
+    margin-top: 5px;
+    margin-left: 6px;
+}
+.a2{
+    margin-top: 15px;
+}
+form{
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form, input, ::placeholder{
+    color: rgb(239, 239, 239);
+    font-size: 15px;
+}
+input, button{
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+input{
+    margin-left: -30%;
+    width: 120%;
+    height: 42px;
+    background: rgb(77, 77, 77);
+    padding-left: 15px;
+    color: rgb(224, 224, 224);
+}
+button{
+
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    top: 8px;
+    right: 40px;
+    background: rgb(77, 77, 77);
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgb(156, 156, 156);
+}
+button:before{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    color: rgb(226, 226, 226);
+}
+.a3{
+    margin: 25px 8px;
+}
+.a3 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(21, 21, 21);
+    border-radius: 2px;
+    padding: 7px 3px;
+}
+.slide{
+    display: flex;
+    justify-content:space-evenly;
+    box-shadow: 0 0 7px rgb(13, 13, 13);
+    margin-top: 30px;
+}
+.image{
+    position: relative;
+    padding: 14px 0 14px 0;
+}
+h4{
+    position: absolute;
+    top: 14px;
+    left: 0;
+    background-color: rgb(134, 0, 0);
+    font-size: 13px;
+    padding: 1px 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hh4 h4{
+    text-decoration: none;
+    color: white;
+}
+.image img{
+    box-shadow: 0 0 7px rgb(13, 13, 13);
+}
+h5{
+    width: 100%;
+    position: absolute;
+    bottom: 17px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.452);
+    font-size: 14px;
+    padding: 10px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.hh4 h5{
+    text-decoration: none;
+    color: white;
+}
+.hh4 h5:hover{
+    opacity: 0;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.m1{
+    width: 27.5%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    height: max-content;
+    box-shadow: 0 0 10px;
+}
+.mm1{
+    background-color: rgb(11, 136, 0);
+    padding: 12px 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 14px;
+    font-family: inherit;
+    color: white;
+}
+.mm1 a{
+    text-decoration: none;
+    color: black;
+    font-family: inherit;
+}
+.mm11{
+    margin-top: 18px;
+    text-align: center;
+    border: 3px solid rgb(44, 216, 255) ;
+    padding: 5px;
+    
+}
+.mm11 a{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: inherit;
+    color: rgb(44, 216, 255);
+}
+.mm12{
+    margin-top: 20px;
+    background-color: rgb(11, 136, 0);
+    padding: 12px 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 14px;
+    font-family: inherit;
+    color: white;
+}
+.mbv{
+    display: flex;
+    justify-content: space-evenly;
+}
+.mn2{
+    text-align: center;
+    margin: 12px;
+    margin-top: 20px;
+}
+.mn2 a{
+    text-decoration: none;
+    color: rgb(197, 78, 78);
+    font-family: inherit;
+}
+.mn2 a:hover{
+    text-decoration: underline  white;
+}
+.mn3{
+    font-family: inherit;
+    color: rgb(26, 193, 0);
+    margin: 15px;
+}
+.mn4{
+    display: flex;
+    justify-content: space-around;
+}
+.gg{
+    margin: 0 0 0 15px;
+    font-family: inherit;
+}
+.gg1{
+    margin: 6px;
+}
+.gg1 a{
+    text-decoration: none;
+    color: rgb(182, 182, 182);
+}
+.gg1 a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.gg11{
+    margin: 0 0 0 20px;
+    font-family: inherit;
+}
+.gg12{
+    margin: 0 0 0 6px;
+}
+.gg12 a{
+    font-family: inherit;
+    text-decoration: none;
+    color: rgb(44, 216, 255);
+}
+.gg12 a:hover{
+    text-decoration: underline white;
+}
+.gg13 a{
+    font-family: inherit;
+    text-decoration: none;
+    color: rgb(247, 150, 15);
+    margin: 0 0 0 6px;
+}
+.gg13 a:hover{
+    text-decoration: underline white;
+}
+.ff{
+    display: flex;
+    margin-left: 20px;
+}
+.kk2{
+    justify-content: center;
+    margin-left: 10px;
+}
+.kk{
+    color: white;
+}
+.ks{
+    margin: 6px;
+}
+.ks a{
+    text-decoration: none;
+    color: rgb(197, 78, 78);
+    font-family: inherit;
+}
+.ks a:hover{
+    text-decoration: underline  white;
+}
+.kk3{
+    margin-left: 70px;
+}
+.ues{
+    
+    margin-bottom: 30px;
+}
+.m2{
+    width: 72.5%;
+    margin: 20px;
+
+}
+.mm2{
+    display: flex;
+    justify-content: space-between;
+}
+.mm22{
+    color: white;
+    font-family: inherit;
+    font-size: 16px;
+}
+.mm23{
+    display: flex;
+}
+.mm23 .ju2{
+    padding: 6px 8px;
+    background: rgb(26, 193, 0);
+    box-shadow: 0 0 5px;
+}
+.mm23 .ju1{
+    padding: 6px 12px;
+    background: rgb(29, 31, 29);
+    box-shadow: 0 0 5px;
+}
+.fop{
+    display: flex;
+    margin-top: 35px;
+}
+.juv1{
+    margin-left: 30px;
+    margin-top: 10px;
+    color: white;
+    font-family: inherit;
+    font-size: 12px;
+}
+.juv{
+    margin-left: 20px;
+    padding: 5px 7px;
+    background: rgb(0, 89, 47);
+    border: 1px solid rgb(159, 190, 0);
+    border-radius: 3px;
+
+}
+.juv a{
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 12px;
+    color: white;
+}
+.fop2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.juv2{
+    padding: 5px;
+}
+.fop3{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.juv3{
+    width: 30%;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0 0 10px;
+    margin: 10px;
+    padding-bottom: 2%;
+    position: relative;
+    font-family: inherit;
+    font-size: 14px;
+}
+.juv3 a{
+    color: white;
+}
+.fr1{
+    position: absolute;
+    background-color: rgb(134, 0, 0);
+    padding: 1px;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    color: white;
+    font-family: inherit;
+    font-size: 14px;
+}
+.fr2{
+    position: absolute;
+    background-color: rgba(205, 205, 205, 0.482);
+    padding: 8px 8px 3px 8px;
+    top: 5px;
+    right: 8px;
+    text-decoration: none;
+    color: white;
+    font-family: inherit;
+    font-size: 14px;
+    border-radius: 50%;
+}
+.juv2 img:hover{
+    opacity: 0.7;
+}
+.juv3 img:hover{
+    opacity: 0.8;
+}
+.juv33{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.juv33 strong{
+    font-family: inherit;
+    font-size: 18px;
+    color: rgb(255, 255, 0);
+}
+.juv34{
+    margin-left: 5%;
+    width: 90%;
+    margin-top: 10px;
+    background-color: rgb(255, 0, 0);
+    border-radius:10px;
+    justify-content: center;
+    text-align: center;
+}
+.juv34a{
+    background-color: rgb(21, 255, 0);
+    width: 50%;
+    padding: 6px;
+    border-radius: 10px 0 0 10px;
+}
+.footer{
+    color: rgb(185, 185, 185);
+    text-size-adjust: 50px;
+    margin: 80px 20px 20px 20px;
+    font-family: inherit;
+}
+.footer a{
+    text-shadow: 0 0 2px;
+    text-decoration:underline;
+    color: rgb(200, 200, 200);
+}
+.footer a:hover{
+    color: rgb(255, 255, 255);
+}
